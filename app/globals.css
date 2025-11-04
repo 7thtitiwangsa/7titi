@@ -1,6 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-pengakap-green: #2D5016;
+  --color-pengakap-blue: #1e40af;
+  --color-pengakap-gold: #d97706;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
