@@ -7,12 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        pengakap: {
-          green: '#006747',
-          gold: '#FFD700',
-          navy: '#003B5C',
-        },
+     colors: {
+        'pengakap-green': '#2D5016',     // Forest green for Pengakap
+        'pengakap-blue': '#1e40af',      // Deep blue
+        'pengakap-gold': '#d97706',      // Gold accent
       },
     },
   },
